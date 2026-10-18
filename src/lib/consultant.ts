@@ -58,7 +58,7 @@ export function greeting(state: ConsultantState): ConsultantReply {
       state: { ...state, offeredSaved: true },
       messages: [
         say(
-          `Привет! Я AI-консультант Forma. Вижу твою анкету: ${p.weightKg} кг, ${p.heightCm} см, цель — ${GOAL_LABELS[p.goal].toLowerCase()}, зал ${p.gymDaysPerWeek} раз в неделю. Подобрать набор по ней?`,
+          `Привет! Я AI-консультант FitBox. Вижу твою анкету: ${p.weightKg} кг, ${p.heightCm} см, цель — ${GOAL_LABELS[p.goal].toLowerCase()}, зал ${p.gymDaysPerWeek} раз в неделю. Подобрать набор по ней?`,
         ),
       ],
       quickReplies: ['Да, подбери', 'Нет, начнём заново'],
@@ -68,7 +68,7 @@ export function greeting(state: ConsultantState): ConsultantReply {
   return {
     state: { ...state, asking: next },
     messages: [
-      say('Привет! Я AI-консультант Forma. Помогу подобрать спортпит под твою цель и бюджет — задам несколько вопросов.'),
+      say('Привет! Я AI-консультант FitBox. Помогу подобрать спортпит под твою цель и бюджет — задам несколько вопросов.'),
       say(QUESTIONS[next!].text),
     ],
     quickReplies: QUESTIONS[next!].quick,

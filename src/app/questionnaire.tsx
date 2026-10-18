@@ -110,7 +110,7 @@ export default function Questionnaire() {
         </Field>
 
         <View style={styles.switches}>
-          <Toggle label="Беру рацион Forma" hint="Тогда учтём белок из рациона" value={p.usesMealPlan} onChange={(v) => set('usesMealPlan', v)} />
+          <Toggle label="Беру рацион FitBox" hint="Тогда учтём белок из рациона" value={p.usesMealPlan} onChange={(v) => set('usesMealPlan', v)} />
           <Toggle label="Непереносимость лактозы" value={p.lactoseIntolerant} onChange={(v) => set('lactoseIntolerant', v)} />
           <Toggle
             label="Есть ограничения по здоровью"

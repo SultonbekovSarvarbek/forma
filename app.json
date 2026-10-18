@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Forma",
-    "slug": "forma",
+    "name": "FitBox",
+    "slug": "fitbox",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "uz.forma.app"
+      "bundleIdentifier": "uz.fitbox.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,7 +25,7 @@
     "plugins": [
       "expo-router"
     ],
-    "scheme": "forma",
+    "scheme": "fitbox",
     "experiments": {
       "typedRoutes": true
     }

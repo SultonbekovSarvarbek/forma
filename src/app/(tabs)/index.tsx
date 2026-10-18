@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <ScrollView style={styles.screen} contentContainerStyle={[styles.content, { paddingTop: insets.top + space.lg }]}>
       <Text style={styles.logo}>
-        Forma<Text style={{ color: colors.accent }}>.</Text>
+        Fit<Text style={{ color: colors.accent }}>Box</Text>
       </Text>
       <Text style={styles.tagline}>Спортпит и рационы для тех, кто тренируется</Text>
 
